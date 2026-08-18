@@ -28,6 +28,4 @@ jobs:
 
     - name: Simular despliegue
       run: |
-        echo "=========================================="
-        echo "✅ ¡Despliegue exitoso del sistema de planillas!"
-        echo "=========================================="
+        echo " ¡Despliegue exitoso del sistema de planillas!"
