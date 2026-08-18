@@ -19,5 +19,5 @@ jobs:
       with:
         node-version: '24'
 
-    - name: Ejecutar pruebas simulando entorno global
-      run: node --experimental-test-module-mocks --test planilla.test.js
+    - name: Ejecutar pruebas con Jest bajo demanda
+      run: npx jest planilla.test.js
