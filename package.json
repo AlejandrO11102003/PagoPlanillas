@@ -1,0 +1,28 @@
+{
+  "name": "pagoplanillas",
+  "version": "1.0.0",
+  "main": "planilla.js",
+  "scripts": {
+  "name": "planilla-pagos",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandrO11102003/PagoPlanillas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandrO11102003/PagoPlanillas/issues"
+  },
+  "homepage": "https://github.com/AlejandrO11102003/PagoPlanillas#readme",
+  "description": ""
+}

@@ -17,7 +17,11 @@ jobs:
     - name: Configurar Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '24'
+        node-version: '20'
+        cache: 'npm'
 
-    - name: Ejecutar pruebas con Jest bajo demanda
-      run: npx jest planilla.test.js
+    - name: Instalar dependencias
+      run: npm install
+
+    - name: Ejecutar pruebas unitarias
+      run: npm test
