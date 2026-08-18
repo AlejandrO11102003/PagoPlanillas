@@ -25,3 +25,9 @@ jobs:
 
     - name: Ejecutar pruebas unitarias
       run: npm test
+
+    - name: Simular despliegue
+      run: |
+        echo "=========================================="
+        echo "✅ ¡Despliegue exitoso del sistema de planillas!"
+        echo "=========================================="
